@@ -1,0 +1,20 @@
+.section1{
+ width: 100%;
+ margin: 20px;
+ /* padding: 20px; */
+ background-color: rgb(157, 154, 154);
+ /* border-radius: 50px; */
+}
+.cardblock{
+ /* background-image: url(https://i.im.ge/2022/07/20/F21yBq.jpg); */
+ background-size: cover;
+ color: rgb(148, 144, 144);
+ text-align: center;
+ margin: 10px;
+ /* height: 20vh; */
+ width: 18rem;
+}
+
+.section3{
+ background-color: rgb(176, 198, 131);
+}

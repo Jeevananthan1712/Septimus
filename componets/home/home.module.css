@@ -1,0 +1,114 @@
+.backimage{
+ 
+
+
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .2)), url("https://i.im.ge/2022/07/15/FoqIBf.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+
+
+width: 100%;
+	/* height: auto; */
+	/* position: absolute; */
+	/* top: 0;
+	left: 0;
+	right: 0; */
+	/* opacity:  .8; */
+	/* object-fit: cover; */
+	object-position: center;
+	height: 100%;
+}
+
+.section1{
+  	display: flex;
+	position: relative;
+	border-radius: 0em;
+  /* padding: 0px 2px 2px 2px; */
+  padding: 2px;
+  background-color: beige ;
+	/* background: #2196f3; */
+	width: 100%;
+	height: 60rem;
+	overflow: hidden;
+}
+.centered {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(194, 71, 255); */
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  font-size: 5em;
+  padding-bottom: 20px;
+  color: white;
+  text-shadow: 0 0 8px grey;
+  text-transform: capitalize;
+
+
+
+}
+
+
+.section2{
+  background-color: black;
+  color: rgb(241, 234, 225);
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.texth1{
+  padding: 5rem;
+  margin-left: 17%;
+  font-size: 10vh;
+  /* width: 100%; */
+  width: 70%;
+  text-align: center;
+  align-items: center;
+
+}
+/* .div1{
+  /* width: 6rem; */
+  
+/* } */ 
+
+@media screen and (max-width: 720px) {
+ 
+ .section1{
+  width: 100%;
+  /* height: ; */
+  background-size: auto;
+ }
+  .backimage{
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    
+ }
+
+  .centered{
+  /* margin-top: 25%; */
+  font-size: 100%;
+
+ }
+}
+
+
+
